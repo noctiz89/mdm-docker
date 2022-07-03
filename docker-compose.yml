@@ -16,7 +16,7 @@ services:
             args:
                 MDM_APPLICATION_COMMIT: "${MDM_APPLICATION_COMMIT}"
                 MDM_UI_COMMIT: "${MDM_UI_COMMIT}"
-                ADDITIONAL_PLUGINS: ""
+                ADDITIONAL_PLUGINS: "uk.ac.ox.softeng.maurodatamapper.plugins:mdm-plugin-excel:3.0.0"
                 MDM_UI_THEME_NAME: "default"
                 CACHE_BURST: "${CACHE_BURST}"
         environment:
