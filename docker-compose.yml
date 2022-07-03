@@ -16,7 +16,7 @@ services:
             args:
                 MDM_APPLICATION_COMMIT: "${MDM_APPLICATION_COMMIT}"
                 MDM_UI_COMMIT: "${MDM_UI_COMMIT}"
-                ADDITIONAL_PLUGINS: "uk.ac.ox.softeng.maurodatamapper.plugins:mdm-plugin-excel:3.0.0"
+                ADDITIONAL_PLUGINS: "uk.ac.ox.softeng.maurodatamapper.plugins:mdm-plugin-excel:5.1.0;uk.ac.ox.softeng.maurodatamapper.plugins:mdm-plugin-artdecor:2.1.0;uk.ac.ox.softeng.maurodatamapper.plugins:mdm-plugin-csv:4.1.0;uk.ac.ox.softeng.maurodatamapper.plugins:mdm-plugin-digital-object-identifiers:2.1.0;uk.ac.ox.softeng.maurodatamapper.plugins:mdm-plugin-fhir:2.1.0"
                 MDM_UI_THEME_NAME: "default"
                 CACHE_BURST: "${CACHE_BURST}"
         environment:
